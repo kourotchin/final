@@ -1,23 +1,15 @@
 {
-  "name": "tchin-frontend",
-  "private": true,
-  "version": "0.0.0",
-  "type": "module",
+  "name": "tchin-backend",
+  "version": "1.0.0",
+  "description": "API for T'CHIN app",
+  "main": "server.js",
   "scripts": {
-    "dev": "vite",
-    "build": "vite build",
-    "preview": "vite preview"
+    "start": "node server.js",
+    "dev": "node server.js"
   },
   "dependencies": {
-    "leaflet": "^1.9.4",
-    "react": "^18.2.0",
-    "react-dom": "^18.2.0"
-  },
-  "devDependencies": {
-    "@vitejs/plugin-react": "^4.2.1",
-    "autoprefixer": "^10.4.19",
-    "postcss": "^8.4.38",
-    "tailwindcss": "^3.4.3",
-    "vite": "^5.2.0"
+    "express": "^4.17.1",
+    "cors": "^2.8.5",
+    "pg": "^8.7.3"
   }
 }
